@@ -32,4 +32,11 @@
     "@types/": "fortawesome/react-fontawesome",
     "@types/react-slick": "^0.23.10"
   }
+  {
+    "name": "my-package",
+    "scripts": {
+      "build": "babel src -d lib",
+      "test": "jest"
+    }
+  }
 }

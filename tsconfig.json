@@ -19,6 +19,13 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "component/Slider1/data.js",
+    "component/App.js",
+    "component/logic/index.js"
+  ],
   "exclude": ["node_modules"]
 }

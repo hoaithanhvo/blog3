@@ -1,0 +1,20 @@
+.dt {
+  color: aqua;
+}
+
+/* @media only screen and (max-width: 739px) {
+  .dt {
+    display: block;
+    color: #00a82d;
+  }
+}
+@media only screen and (min-width: 740px) and (max-width: 739px) {
+  .ipad {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1024) {
+  .pc {
+    display: block;
+  }
+} */

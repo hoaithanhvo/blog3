@@ -5,8 +5,8 @@ import {
   faCartPlus,
   faChevronDown,
 } from "@fortawesome/free-solid-svg-icons";
-import App from "component/Slider1/App";
-import App1 from "component/Slider2/App";
+// import App from "component/Slider1/App";
+// import App1 from "component/Slider2/App";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { log } from "console";
 library.add(faCartPlus);
@@ -17,9 +17,9 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <div className={styles.slider}>
+      {/* <div className={styles.slider}>
         <App />
-      </div>
+      </div> */}
 
       <div className={styles.header}>
         <img
@@ -133,9 +133,9 @@ export default function Home() {
         alt=""
       />
 
-      <div className={styles.slider2}>
+      {/* <div className={styles.slider2}>
         <App1 />
-      </div>
+      </div> */}
 
       <div className={styles.product}>
         <div className={styles.button}>
